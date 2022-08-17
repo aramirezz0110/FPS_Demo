@@ -1237,7 +1237,6 @@ MonoBehaviour:
   dance1Button: {fileID: 1115562697}
   dance2Button: {fileID: 1757184739}
   dance3Button: {fileID: 503350335}
-  changeSceneButton: {fileID: 1219010922}
   animator: {fileID: 1666839039}
 --- !u!4 &1141536933
 Transform:
@@ -1335,7 +1334,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1219010923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4850057139581711138}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadFPSScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1219010923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,3 +1844,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c397e2be64eaeba4096cff7c227fb46a, type: 3}
+--- !u!114 &4850057139581711138 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2963437964165296808, guid: c397e2be64eaeba4096cff7c227fb46a, type: 3}
+  m_PrefabInstance: {fileID: 4850057139581711137}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e665cf0fb52894441a1d27e9a79bc6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

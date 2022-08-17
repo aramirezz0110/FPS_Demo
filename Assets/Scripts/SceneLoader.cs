@@ -17,4 +17,6 @@ public class SceneLoader : MonoBehaviour
             Destroy(gameObject);
     }
     public void LoadScene(string sceneName) => SceneManager.LoadScene(sceneName);
+    public void LoadFPSScene() => SceneManager.LoadScene(SceneNames.FPSScene);
+    public void LoadDanceScene() => SceneManager.LoadScene(SceneNames.DanceScene);
 }

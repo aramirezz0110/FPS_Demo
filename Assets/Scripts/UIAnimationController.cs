@@ -8,7 +8,6 @@ public class UIAnimationController : MonoBehaviour
     [SerializeField] private Button dance1Button;
     [SerializeField] private Button dance2Button;
     [SerializeField] private Button dance3Button;
-    [SerializeField] private Button changeSceneButton;
     [Header("Animation References")]
     [SerializeField] private Animator animator;
     private void Start()
@@ -24,9 +23,6 @@ public class UIAnimationController : MonoBehaviour
     private void PlayAnimation1() => animator.SetTrigger(UIAnimationParameters.Dance1);
     private void PlayAnimation2() => animator.SetTrigger(UIAnimationParameters.Dance2);
     private void PlayAnimation3() => animator.SetTrigger(UIAnimationParameters.Dance3);
-    private void ChangeScene()
-    {
-
-    }
+    
 
 }
