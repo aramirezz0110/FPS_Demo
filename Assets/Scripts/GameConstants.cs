@@ -10,10 +10,16 @@ public static class UIAnimationParameters
 }
 public static class GameAnimationParameters 
 {
-    
+    public static string Walking = "Walking";
+    public static string IsShooting = "IsShooting";
 }
 public static class SceneNames 
 {
     public static string DanceScene = "DanceScene";
     public static string FPSScene = "FPSScene";
+}
+public static class GameTags 
+{
+    public static string Player = "Player";
+    public static string Weapon = "Weapon";
 }

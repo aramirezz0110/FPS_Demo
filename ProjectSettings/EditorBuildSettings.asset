@@ -10,5 +10,6 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/FPSScene.unity
-    guid: e34fac6becd46c04f9c115f7e8c797f1
-  m_configObjects: {}
+    guid: 84539babdb6b5a749975df577e783fff
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
