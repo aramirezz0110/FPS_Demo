@@ -17,7 +17,12 @@ public class PlayerAnimatorController : MonoBehaviour
         movementAction.action.performed += MovementPerformed;
         movementAction.action.canceled += MovementCanceled;        
     }
-    
+    private void OnDisable()
+    {
+        movementAction.action.performed -= MovementPerformed;
+        movementAction.action.canceled -= MovementCanceled;
+    }
+
     private void MovementPerformed(InputAction.CallbackContext obj)
     {
         animator.SetFloat(GameAnimationParameters.Walking, 1);        

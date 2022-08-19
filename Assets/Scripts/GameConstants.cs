@@ -22,4 +22,11 @@ public static class GameTags
 {
     public static string Player = "Player";
     public static string Weapon = "Weapon";
+    public static string Rotable = "Rotable";
+}
+public enum RotateAxis 
+{
+    XAxis,
+    YAxis,
+    ZAxis,
 }

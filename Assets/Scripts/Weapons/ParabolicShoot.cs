@@ -20,8 +20,12 @@ public class ParabolicShoot : MonoBehaviour
     {
         shootAction.action.performed += ShootPerformed;
         shootAction.action.canceled += ShootCanceled;
-    }   
-
+    }
+    private void OnDisable()
+    {
+        shootAction.action.performed -= ShootPerformed;
+        shootAction.action.canceled -= ShootCanceled;
+    }
     private void ShootPerformed(InputAction.CallbackContext obj)
     {
         bulletRigidBody = Instantiate(bullet, bulletOrigin.position, bulletOrigin.localRotation).GetComponent<Rigidbody>();

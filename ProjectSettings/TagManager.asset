@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Weapon
+  - Rotable
   layers:
   - Default
   - TransparentFX
