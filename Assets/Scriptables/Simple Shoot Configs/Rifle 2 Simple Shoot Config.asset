@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b807a728536f542829c5830a91164d, type: 3}
+  m_Name: Rifle 2 Simple Shoot Config
+  m_EditorClassIdentifier: 
+  _bulletName: Gravity bullet shoot
+  _bulletDescription: Is a bullet who atracts objects
+  _bullet: {fileID: 1000340687967173524, guid: 92e89f318a7628641973c10d7e053b1b, type: 3}

@@ -7,7 +7,8 @@ public class SimpleBulletShooter : MonoBehaviour
 {
     [SerializeField] private InputActionReference simpleShoot;
     [SerializeField] private Transform bulletOrigin;
-    [SerializeField] private GameObject bullet;
+    [SerializeField] private SimpleShootConfig simpleShootConfig;
+    
     private void OnEnable()
     {
         print("Setting up all");
@@ -21,7 +22,7 @@ public class SimpleBulletShooter : MonoBehaviour
     }
     private void ShootPerformed(InputAction.CallbackContext obj)
     {
-        Instantiate(bullet, bulletOrigin.position, bulletOrigin.rotation);
+        Instantiate(simpleShootConfig.bullet, bulletOrigin.position, bulletOrigin.rotation);
     }
     private void ShootCanceled(InputAction.CallbackContext obj)
     {

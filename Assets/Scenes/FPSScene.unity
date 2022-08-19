@@ -783,9 +783,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootAction: {fileID: 64360423080938617, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-  bullet: {fileID: 6615545564707379868, guid: 261d710a4fe07e245b185480f0dc99e9, type: 3}
+  parabolicShootConfig: {fileID: 11400000, guid: 8e9915f0d82b0644b99eff6dc2e81d4e, type: 2}
   bulletOrigin: {fileID: 621901878}
-  bulletImpulse: 20
 --- !u!1 &584794902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,9 +1389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootAction: {fileID: -6502914677311533527, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-  bullet: {fileID: 7848720495756776429, guid: d521abcffb6a11c4aba0000f42e8254c, type: 3}
+  parabolicShootConfig: {fileID: 11400000, guid: c5ff8516318bffc44afe30c7704c50af, type: 2}
   bulletOrigin: {fileID: 252332639}
-  bulletImpulse: 10
 --- !u!1001 &718479641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2558,7 +2556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   simpleShoot: {fileID: -6502914677311533527, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
   bulletOrigin: {fileID: 1711056963}
-  bullet: {fileID: 1000340687967173524, guid: 92e89f318a7628641973c10d7e053b1b, type: 3}
+  simpleShootConfig: {fileID: 11400000, guid: ac4d2ca455c8727468b864c2ec63f84b, type: 2}
 --- !u!1 &1444958292
 GameObject:
   m_ObjectHideFlags: 0
